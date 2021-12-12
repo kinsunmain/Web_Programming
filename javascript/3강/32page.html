@@ -1,0 +1,16 @@
+<script>
+function println(value)
+{
+	if (value != undefined) document.write(value);
+	document.write("<br>");
+}
+</script>
+
+<script>
+var a = 23, b = true, c = "abc";
+println(typeof(a)+", "+typeof(b)+", "+typeof(c));
+var x = new Number(23);
+var y = new Number(true);
+var z = new Number("abc");
+println(typeof(x)+", "+typeof(y)+", "+typeof(z));
+</script>

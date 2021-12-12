@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>나에 대하여</title>
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+			div{					/* 태그 select 사용하였음 - 전체영역 스타일 */
+				border: 1px solid #ccc; /* 전체영역에 테두리 표시를 나타내고자 할때 */
+			}
+			
+			body{
+				font-family: 'Do Hyeon', sans-serif;
+				}
+			
+			#page{					/* id page: 전체영역 부분 */
+				width: 960px;		/* 전체영역 너비 */
+				padding: 20px;		/* 전체영역 패딩기능 */
+				margin: 0 auto;		/* 화면 중앙에 배치 */
+				background-color: #fff7dc;/* 배경색 - 연노랑색 */
+			}
+			
+			#top{					/* id top: 웹페이지의 타이틀 부분 */
+				padding: 20px;		/* 패딩기능 */
+				margin-bottom: 20px;/* 아래 요소와의 간격(마진) */
+				background-color: skyblue;/* 배경색 - 하양색 */
+			}
+			
+			#leftnav{				/* id leftnav: 구글 서비스 목록*/
+				width: 220px;		/* 너비 */
+				padding: 20px;		/* 패딩 */
+				float: left;		/* 왼쪽으로 플로팅 */
+				margin-bottom: 20px;/* 아래 요소와의 간격 */
+				background-color: #BDFAFA;/* 배경색 - 연보라색 */
+			}
+			
+			#content{				/* id content: 구글 설명 및 구글 서비스 링크 */
+				width: 620px;		/* 너비 */
+				padding: 20px;		/* 패딩 */
+				float: right;		/* 오른쪽으로 플로팅 */
+				margin-bottom: 20px;/* 아래 요소와의 간격 */
+				background-color: #F9D7F8;/* 배경색 - 연노랑색 */
+			}
+			
+			#footer{				/* id footer: 집주소 */
+				height: 80px;		/* 높이 */
+				clear: both;		/* 양쪽 플로팅 해제 */
+				padding: 20px;		/* 패딩 */
+				margin-top: 20px;
+				font-style: italic;
+			}
+			.ft{
+				font-size:20px;
+				}
+		</style>
+	</head>
+	<body>
+		<div id="page">
+			<div id="top">
+				<h1 align="center">나(김선민)에 대하여</h1>
+				<h4 align="right">소프트웨어학과 202135518 김선민</h4>
+			</div>
+			<div id="middle">
+				<div id="leftnav">
+					<h3>출신고교</h3>
+					<ol>
+						<li><a href="http://cacr.caees.kr/main.do">천안청룡초등학교</a></li>
+						<li><a href="http://css.caems.kr/main.do">천안새샘중학교</a></li>
+						<li><a href="http://www.casd.caehs.kr/main.do">천안신당고등학교</a></li>
+						<li><a href="https://www.gachon.ac.kr/main.jsp">가천대학교</a></li>
+						<li>그 외</li>
+					</ol>
+				</div>
+				<div id="content">
+					<h2>거주지</h2>
+					<p class=ft>현재 천안에서 사는 중입니다.<br>
+					천안토박이입니다.</p>
+					<h2>특징</h2>
+					<p class=ft>성격 아주 좋아요<br>
+					엄청 잘 웃어요</p>
+				</div>
+			</div>
+			<div id="footer">
+				<p align="right">충청남도 천안시 동남구<br>
+				@@동 @@아파트 @@@동 @@@호</p>
+			</div>
+		</div>
+	</body>
+</html>

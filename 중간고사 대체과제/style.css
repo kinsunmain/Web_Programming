@@ -1,0 +1,61 @@
+		@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+		nav ul {
+			list-style-type: none;
+		}
+		nav ul li {
+			display: inline;
+			padding:10px 15px 10px 15px;
+			float: right;
+			background-color: rgba(240, 100, 100, 0.75);/*#F5A9E1;*/
+			vertical-align: middle;
+			border-top : 1px solid black;
+			border-bottom : 1px solid black;
+			box-shadow: 0 2px 5px rgba(0,0,0,.26); color: rgba(0,0,0,.7);
+		}
+		header {
+			heght: 25%;
+			background-color: rgba(255, 255, 255, 0.3);
+			padding:10px 15px;
+			margin:10px;
+			border-bottom:1px solid #222;
+			}
+		section {
+			heght: 50%;
+			background-color: rgba(255, 255, 255, 0.3);
+			padding:10px 15px;
+			margin:10px;
+			float: middle;
+			}
+		footer {
+			heght: 25%;
+			background-color: rgba(255, 255, 255, 0.3);
+			padding:10px 15px;
+			margin:10px;
+			border-top:1px solid #222;
+			}
+		div {
+			width:35%; /* 너비 */
+			/*height:300px; /* 높이 */
+			background-color: rgba(255, 255, 255, 0.3); /* 배경색 */
+			display:inline-block; /* 가로로 배치 */
+			margin:15px; /* 마진 - 15px 15px 15px 15px */
+			color:black; /* 글자색 */
+			border:1px solid #222;
+		}
+		.box1 { padding:5px 5px 2px 5px;
+				margin:10px;
+		}
+		.box2 { padding:10px 30px 10px 30px;
+				margin:10px;
+		}
+		.link {
+			text-decoration:none;
+			color: #fff;
+		}
+		.left { border-right : 1px solid black;}
+		.right { border-left : 1px solid black;
+				border-right: 1px solid black;
+				}
+		body{
+			font-family: 'Gamja Flower', cursive;
+		}

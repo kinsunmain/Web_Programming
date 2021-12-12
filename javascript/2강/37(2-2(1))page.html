@@ -1,0 +1,10 @@
+<script type="text/javascript">
+var A = [1,2,3,5,8,13,21,34,55,89];
+var counter, book = "";
+for (counter in A){
+	if (counter==3 || counter==5|| counter==2)continue;
+	book += A[counter] + " ";
+}
+document.write(book);
+document.write("<br/>You have exited the loop.");
+</script>
